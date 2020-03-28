@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D5186ED439FE6532952B989 /* Pods_Weekly_Lifts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F8C673DB03C300C920F966 /* Pods_Weekly_Lifts.framework */; };
 		3D12A7FB2287C58C0053830F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D12A7FA2287C58C0053830F /* AppDelegate.swift */; };
-		3D12A7FD2287C58C0053830F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D12A7FC2287C58C0053830F /* FirstViewController.swift */; };
-		3D12A7FF2287C58C0053830F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D12A7FE2287C58C0053830F /* SecondViewController.swift */; };
+		3D12A7FD2287C58C0053830F /* statsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D12A7FC2287C58C0053830F /* statsViewController.swift */; };
+		3D12A7FF2287C58C0053830F /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D12A7FE2287C58C0053830F /* homeViewController.swift */; };
 		3D12A8022287C58C0053830F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D12A8002287C58C0053830F /* Main.storyboard */; };
 		3D12A8042287C58D0053830F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D12A8032287C58D0053830F /* Assets.xcassets */; };
 		3D12A8072287C58D0053830F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D12A8052287C58D0053830F /* LaunchScreen.storyboard */; };
 		3D12A8122287C58D0053830F /* Weekly_LiftsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D12A8112287C58D0053830F /* Weekly_LiftsTests.swift */; };
 		3D12A81D2287C58D0053830F /* Weekly_LiftsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D12A81C2287C58D0053830F /* Weekly_LiftsUITests.swift */; };
+		3D12A82B2287E5B90053830F /* addViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D12A82A2287E5B90053830F /* addViewController.swift */; };
+		3D12A82D2287E8AB0053830F /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D12A82C2287E8AB0053830F /* TabBarViewController.swift */; };
+		3D12A8322287F6FB0053830F /* WorkoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D12A8312287F6FB0053830F /* WorkoutCell.swift */; };
+		3D12A8342287F80C0053830F /* WorkoutCellClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D12A8332287F80C0053830F /* WorkoutCellClass.swift */; };
+		3D12A836228A7FE00053830F /* DayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D12A835228A7FE00053830F /* DayCell.swift */; };
+		3D12A838228A83B10053830F /* DayCellClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D12A837228A83B10053830F /* DayCellClass.swift */; };
+		3D12A83A228A8BE50053830F /* DisplayDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D12A839228A8BE50053830F /* DisplayDayViewController.swift */; };
+		3D12A83D228B1A970053830F /* DisplayDayClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D12A83C228B1A970053830F /* DisplayDayClass.swift */; };
+		3D12A83F228B1B4A0053830F /* DisplayDayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D12A83E228B1B4A0053830F /* DisplayDayTableViewCell.swift */; };
+		3DAC40222291D8DC0088A475 /* barItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC40212291D8DC0088A475 /* barItem.swift */; };
+		570375CB034F824B545A32D3 /* Pods_Weekly_LiftsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE329A8B23D9FED00892756 /* Pods_Weekly_LiftsTests.framework */; };
+		69111EBADC28ED71CF733706 /* Pods_Weekly_LiftsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA66F669A6F7152AD2B04C93 /* Pods_Weekly_LiftsUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +48,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01EAF098199E6F94F4009EDE /* Pods-Weekly Lifts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weekly Lifts.debug.xcconfig"; path = "Target Support Files/Pods-Weekly Lifts/Pods-Weekly Lifts.debug.xcconfig"; sourceTree = "<group>"; };
+		1E8A2F57E9E0D2C0F6DE7147 /* Pods-Weekly LiftsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weekly LiftsTests.release.xcconfig"; path = "Target Support Files/Pods-Weekly LiftsTests/Pods-Weekly LiftsTests.release.xcconfig"; sourceTree = "<group>"; };
+		34F8C673DB03C300C920F966 /* Pods_Weekly_Lifts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weekly_Lifts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		376DC6C1C1825CDF500C6452 /* Pods-Weekly LiftsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weekly LiftsUITests.release.xcconfig"; path = "Target Support Files/Pods-Weekly LiftsUITests/Pods-Weekly LiftsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3BE329A8B23D9FED00892756 /* Pods_Weekly_LiftsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weekly_LiftsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D12A7F72287C58C0053830F /* Weekly Lifts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weekly Lifts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D12A7FA2287C58C0053830F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D12A7FC2287C58C0053830F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		3D12A7FE2287C58C0053830F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		3D12A7FC2287C58C0053830F /* statsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = statsViewController.swift; sourceTree = "<group>"; };
+		3D12A7FE2287C58C0053830F /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
 		3D12A8012287C58C0053830F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D12A8032287C58D0053830F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D12A8062287C58D0053830F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +67,20 @@
 		3D12A8182287C58D0053830F /* Weekly LiftsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weekly LiftsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D12A81C2287C58D0053830F /* Weekly_LiftsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weekly_LiftsUITests.swift; sourceTree = "<group>"; };
 		3D12A81E2287C58D0053830F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D12A82A2287E5B90053830F /* addViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addViewController.swift; sourceTree = "<group>"; };
+		3D12A82C2287E8AB0053830F /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		3D12A8312287F6FB0053830F /* WorkoutCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCell.swift; sourceTree = "<group>"; };
+		3D12A8332287F80C0053830F /* WorkoutCellClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCellClass.swift; sourceTree = "<group>"; };
+		3D12A835228A7FE00053830F /* DayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCell.swift; sourceTree = "<group>"; };
+		3D12A837228A83B10053830F /* DayCellClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCellClass.swift; sourceTree = "<group>"; };
+		3D12A839228A8BE50053830F /* DisplayDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayDayViewController.swift; sourceTree = "<group>"; };
+		3D12A83C228B1A970053830F /* DisplayDayClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayDayClass.swift; sourceTree = "<group>"; };
+		3D12A83E228B1B4A0053830F /* DisplayDayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayDayTableViewCell.swift; sourceTree = "<group>"; };
+		3DAC40212291D8DC0088A475 /* barItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barItem.swift; sourceTree = "<group>"; };
+		446BBDC3742C0F783800B194 /* Pods-Weekly LiftsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weekly LiftsTests.debug.xcconfig"; path = "Target Support Files/Pods-Weekly LiftsTests/Pods-Weekly LiftsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A604F46649F43BD0B2AAEF59 /* Pods-Weekly LiftsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weekly LiftsUITests.debug.xcconfig"; path = "Target Support Files/Pods-Weekly LiftsUITests/Pods-Weekly LiftsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA66F669A6F7152AD2B04C93 /* Pods_Weekly_LiftsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weekly_LiftsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8AFCB3CF1BFFA6FE9D5056 /* Pods-Weekly Lifts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weekly Lifts.release.xcconfig"; path = "Target Support Files/Pods-Weekly Lifts/Pods-Weekly Lifts.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D5186ED439FE6532952B989 /* Pods_Weekly_Lifts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				570375CB034F824B545A32D3 /* Pods_Weekly_LiftsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +104,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69111EBADC28ED71CF733706 /* Pods_Weekly_LiftsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13024EF12A77F4C55A3CEF6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01EAF098199E6F94F4009EDE /* Pods-Weekly Lifts.debug.xcconfig */,
+				EF8AFCB3CF1BFFA6FE9D5056 /* Pods-Weekly Lifts.release.xcconfig */,
+				446BBDC3742C0F783800B194 /* Pods-Weekly LiftsTests.debug.xcconfig */,
+				1E8A2F57E9E0D2C0F6DE7147 /* Pods-Weekly LiftsTests.release.xcconfig */,
+				A604F46649F43BD0B2AAEF59 /* Pods-Weekly LiftsUITests.debug.xcconfig */,
+				376DC6C1C1825CDF500C6452 /* Pods-Weekly LiftsUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		3D12A7EE2287C58C0053830F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +131,8 @@
 				3D12A8102287C58D0053830F /* Weekly LiftsTests */,
 				3D12A81B2287C58D0053830F /* Weekly LiftsUITests */,
 				3D12A7F82287C58C0053830F /* Products */,
+				13024EF12A77F4C55A3CEF6D /* Pods */,
+				B23D7B03511D460C64D8DA51 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,8 +150,10 @@
 			isa = PBXGroup;
 			children = (
 				3D12A7FA2287C58C0053830F /* AppDelegate.swift */,
-				3D12A7FC2287C58C0053830F /* FirstViewController.swift */,
-				3D12A7FE2287C58C0053830F /* SecondViewController.swift */,
+				3D12A82C2287E8AB0053830F /* TabBarViewController.swift */,
+				3D12A8302287F3390053830F /* stats */,
+				3D12A82F2287F3290053830F /* home */,
+				3D12A82E2287F31E0053830F /* add */,
 				3D12A8002287C58C0053830F /* Main.storyboard */,
 				3D12A8032287C58D0053830F /* Assets.xcassets */,
 				3D12A8052287C58D0053830F /* LaunchScreen.storyboard */,
@@ -128,6 +180,57 @@
 			path = "Weekly LiftsUITests";
 			sourceTree = "<group>";
 		};
+		3D12A82E2287F31E0053830F /* add */ = {
+			isa = PBXGroup;
+			children = (
+				3D12A82A2287E5B90053830F /* addViewController.swift */,
+				3D12A8312287F6FB0053830F /* WorkoutCell.swift */,
+				3D12A8332287F80C0053830F /* WorkoutCellClass.swift */,
+			);
+			path = add;
+			sourceTree = "<group>";
+		};
+		3D12A82F2287F3290053830F /* home */ = {
+			isa = PBXGroup;
+			children = (
+				3D12A7FE2287C58C0053830F /* homeViewController.swift */,
+				3D12A835228A7FE00053830F /* DayCell.swift */,
+				3D12A837228A83B10053830F /* DayCellClass.swift */,
+				3D12A83B228B1A730053830F /* displayDayClasses */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		3D12A8302287F3390053830F /* stats */ = {
+			isa = PBXGroup;
+			children = (
+				3D12A7FC2287C58C0053830F /* statsViewController.swift */,
+				3DAC40212291D8DC0088A475 /* barItem.swift */,
+			);
+			path = stats;
+			sourceTree = "<group>";
+		};
+		3D12A83B228B1A730053830F /* displayDayClasses */ = {
+			isa = PBXGroup;
+			children = (
+				3D12A839228A8BE50053830F /* DisplayDayViewController.swift */,
+				3D12A83C228B1A970053830F /* DisplayDayClass.swift */,
+				3D12A83E228B1B4A0053830F /* DisplayDayTableViewCell.swift */,
+			);
+			name = displayDayClasses;
+			path = "Weekly Lifts/add/displayDayClasses";
+			sourceTree = SOURCE_ROOT;
+		};
+		B23D7B03511D460C64D8DA51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34F8C673DB03C300C920F966 /* Pods_Weekly_Lifts.framework */,
+				3BE329A8B23D9FED00892756 /* Pods_Weekly_LiftsTests.framework */,
+				AA66F669A6F7152AD2B04C93 /* Pods_Weekly_LiftsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +238,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D12A8212287C58D0053830F /* Build configuration list for PBXNativeTarget "Weekly Lifts" */;
 			buildPhases = (
+				55FC1F782F6F454A4E44CCBE /* [CP] Check Pods Manifest.lock */,
 				3D12A7F32287C58C0053830F /* Sources */,
 				3D12A7F42287C58C0053830F /* Frameworks */,
 				3D12A7F52287C58C0053830F /* Resources */,
+				86CD90CA960E7F3FF61E8B46 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +257,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D12A8242287C58D0053830F /* Build configuration list for PBXNativeTarget "Weekly LiftsTests" */;
 			buildPhases = (
+				36CEC939655B8F31CAFF877E /* [CP] Check Pods Manifest.lock */,
 				3D12A8092287C58D0053830F /* Sources */,
 				3D12A80A2287C58D0053830F /* Frameworks */,
 				3D12A80B2287C58D0053830F /* Resources */,
@@ -170,6 +276,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D12A8272287C58D0053830F /* Build configuration list for PBXNativeTarget "Weekly LiftsUITests" */;
 			buildPhases = (
+				46D0C2D69FE0FE64CED9D6EC /* [CP] Check Pods Manifest.lock */,
 				3D12A8142287C58D0053830F /* Sources */,
 				3D12A8152287C58D0053830F /* Frameworks */,
 				3D12A8162287C58D0053830F /* Resources */,
@@ -254,14 +361,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		36CEC939655B8F31CAFF877E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Weekly LiftsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46D0C2D69FE0FE64CED9D6EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Weekly LiftsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55FC1F782F6F454A4E44CCBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Weekly Lifts-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86CD90CA960E7F3FF61E8B46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Weekly Lifts/Pods-Weekly Lifts-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Weekly Lifts/Pods-Weekly Lifts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3D12A7F32287C58C0053830F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D12A7FF2287C58C0053830F /* SecondViewController.swift in Sources */,
+				3D12A7FF2287C58C0053830F /* homeViewController.swift in Sources */,
 				3D12A7FB2287C58C0053830F /* AppDelegate.swift in Sources */,
-				3D12A7FD2287C58C0053830F /* FirstViewController.swift in Sources */,
+				3D12A82B2287E5B90053830F /* addViewController.swift in Sources */,
+				3D12A838228A83B10053830F /* DayCellClass.swift in Sources */,
+				3D12A8322287F6FB0053830F /* WorkoutCell.swift in Sources */,
+				3D12A82D2287E8AB0053830F /* TabBarViewController.swift in Sources */,
+				3D12A83A228A8BE50053830F /* DisplayDayViewController.swift in Sources */,
+				3D12A8342287F80C0053830F /* WorkoutCellClass.swift in Sources */,
+				3D12A836228A7FE00053830F /* DayCell.swift in Sources */,
+				3D12A7FD2287C58C0053830F /* statsViewController.swift in Sources */,
+				3DAC40222291D8DC0088A475 /* barItem.swift in Sources */,
+				3D12A83D228B1A970053830F /* DisplayDayClass.swift in Sources */,
+				3D12A83F228B1B4A0053830F /* DisplayDayTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,10 +642,11 @@
 		};
 		3D12A8222287C58D0053830F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01EAF098199E6F94F4009EDE /* Pods-Weekly Lifts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J47CCLGB57;
+				DEVELOPMENT_TEAM = 63UU8W8PRS;
 				INFOPLIST_FILE = "Weekly Lifts/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,10 +661,11 @@
 		};
 		3D12A8232287C58D0053830F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF8AFCB3CF1BFFA6FE9D5056 /* Pods-Weekly Lifts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J47CCLGB57;
+				DEVELOPMENT_TEAM = 63UU8W8PRS;
 				INFOPLIST_FILE = "Weekly Lifts/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -470,6 +680,7 @@
 		};
 		3D12A8252287C58D0053830F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 446BBDC3742C0F783800B194 /* Pods-Weekly LiftsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +702,7 @@
 		};
 		3D12A8262287C58D0053830F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E8A2F57E9E0D2C0F6DE7147 /* Pods-Weekly LiftsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +724,7 @@
 		};
 		3D12A8282287C58D0053830F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A604F46649F43BD0B2AAEF59 /* Pods-Weekly LiftsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +745,7 @@
 		};
 		3D12A8292287C58D0053830F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 376DC6C1C1825CDF500C6452 /* Pods-Weekly LiftsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
